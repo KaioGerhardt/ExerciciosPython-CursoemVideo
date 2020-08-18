@@ -6,4 +6,9 @@ vcasa = float(input("Digite o valor da casa em R$ "))
 salario = float(input("Digite o seu salário em R$ "))
 anos = int(input("Digite em quantos anos pretende pagar a casa: "))
 prest = vcasa / (anos * 12)
-print(prest)
+
+if prest <= ((salario*30)/100):
+    print("Emprestimo APROVADO!")
+else:
+    print("Emprestimo NEGADO!")
+    
