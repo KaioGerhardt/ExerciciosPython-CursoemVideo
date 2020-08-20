@@ -8,3 +8,6 @@ while s:
         print("Favor insira uma resposta válida! ")
     else:
         print("Obrigado, resposta válida! ")
+
+
+        #ARRUMAR
